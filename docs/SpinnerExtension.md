@@ -65,11 +65,11 @@ fun <V> Spinner.createAdapter(layout: Int, dropDownLayout: Int, list: ArrayList<
 
 Let me explain each element on this extension
 
-    - `layout` -> the layout that appears when the activity is created
-    - `dropDownLayout` -> the layout that appears when you click on spinner to select an item
-    - `list` -> the ArrayList of the Element
-    - `selectedListener` -> the listener that will be called when you select something
-    - `nothingSelectedListener` -> the listener that will be callend when nothing was selected
+ - `layout` -> the layout that appears when the activity is created
+ - `dropDownLayout` -> the layout that appears when you click on spinner to select an item
+ - `list` -> the ArrayList of the Element
+ - `selectedListener` -> the listener that will be called when you select something
+ - `nothingSelectedListener` -> the listener that will be callend when nothing was selected
 
 Then you just need to set your ArrayList on activity
 ```
