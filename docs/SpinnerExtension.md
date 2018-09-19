@@ -64,6 +64,7 @@ fun <V> Spinner.createAdapter(layout: Int, dropDownLayout: Int, list: ArrayList<
 ```
 
 Let me explain each element on this extension
+
     - `layout` -> the layout that appears when the activity is created
     - `dropDownLayout` -> the layout that appears when you click on spinner to select an item
     - `list` -> the ArrayList of the Element
