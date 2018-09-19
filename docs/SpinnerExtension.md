@@ -14,7 +14,7 @@ data class UserModel(
 ```
 
 It's important that you set the `toString` function to see the element properly in layout.
-After this, you will create the Spiner Extension and add:
+After this, you will create the Spinner Extension and add:
 
 ```
 fun <V> Spinner.createAdapter(layout: Int, dropDownLayout: Int, list: ArrayList<V>, selectedListener: (position: Int) -> Unit = {}, nothingSelectedListener: () -> Unit = {}) {
@@ -96,5 +96,5 @@ spinner.createAdapter(
     { }
 )
 ```
-
+Done!
 If you want to see this example, just click [here](https://github.com/eihror/kotlin-util/tree/master/samples/SpinnerExample) 
