@@ -1,7 +1,7 @@
 # Spinner Extension
 This is a repository to kotlin extensions and others stuffs related with Android Development. Created to make the development more easy and faster.
 ### How to use
-You just need to create some mode class like this
+You just need to create some model class like this
 ```
 data class UserModel(
         var id : Int? = null,
